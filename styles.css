@@ -1,0 +1,168 @@
+body{
+    font-family: 'Ubuntu';
+}
+nav{
+    text-transform: uppercase;
+}
+
+a, .btn{
+    text-decoration:none;
+    color: #333333;
+    font-weight: normal;
+}
+
+a:hover, .btn:hover, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    font-weight: 600;
+    text-decoration: underline #be3600 4px;
+    text-underline-offset: .4rem;
+    color: #333333;
+}
+
+.btn-link{
+    font-size: 13pt; width: max-content;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+.logo{
+    font-family: 'Bebas Neue';font-size: 41.13pt;
+}
+
+.registration{
+    font-family: 'Bebas Neue';font-size: 14.62pt;
+}
+
+.orange{
+    color: #ff6200;
+}
+
+.red {
+    color: #be3600;
+}
+
+.orange-bg{
+    background-color: #ff6200;
+    height: 35pt;
+    padding-right: 10rem;
+}
+
+h1{
+    color: #ff6200;
+    font-size: 26.96pt;
+    font-weight: bold;
+}
+
+h2{
+    color: #ff6200;
+    font-size: 24.65pt;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left: 10rem; padding-right: 10rem;
+}
+
+.bg-light-subtle{
+    background-color: #f9f9f9;
+}
+
+.dropdown-menu{
+    min-width: 1rem;
+    padding: 15px 1px;
+    font-size: 12pt;
+}
+
+.dropdown-item{
+    color: #454545;
+}
+
+.dropdown-item:hover, .dropdown-item:checked, .dropdown-item.active, .dropdown-item.show, .dropdown-item:first-child:active{
+    font-weight: 600;
+    text-decoration: none;
+    color: #333333;
+    background-color: white;
+}
+
+.btn-group:hover > .dropdown-menu {
+    display: block;
+    top: 42px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 101%;
+    top: -17px;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+
+.text-grey{
+    color: #878787;
+    line-height: 19pt;
+    font-weight: 100;
+}
+
+.breadcrumb a, .breadcrumb-item+.breadcrumb-item::before{
+    color: #929292;
+    font-weight: normal;
+}
+
+.breadcrumb-item.active, .breadcrumb a:hover{
+    font-weight: bolder;
+    text-decoration:none;
+}
+
+hr{
+    border: .2rem solid #525252;
+    opacity: 1;
+}
+
+.bg-body-secondary{
+    background-color: #f6f6f6!important;
+}
+
+input::placeholder, .form-control::placeholder {
+    color: #878787;
+    opacity: 1;
+}
+
+[type=submit]:not(:disabled){
+    background-color: #ff6200;
+    font-size: 13.04pt;
+}
+
+.address{
+    color: #595959;
+}
+
+.fa {
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 75px;
+    width: 40px;
+    height: 40px;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+    background: #363636;
+    color: white;
+  }
+  
+  .fa:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+  }
